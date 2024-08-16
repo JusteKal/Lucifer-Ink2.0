@@ -25,7 +25,6 @@
 }
 
 .container:after{
-	content: '';
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -57,7 +56,6 @@ h2{
 	padding: 0 0 10px;
 	margin-bottom: 10px;
     color: rgb(43, 43, 43);
-    font-family: 'Poppins', sans-serif;
 }
 
 h2:after{
@@ -81,10 +79,6 @@ h2:after{
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
-}
-
-.field:hover{
-	background-color: rgba(193, 193, 193, 0.1);
 }
 
 textarea{
@@ -121,6 +115,6 @@ textarea{
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid rgb(20, 20, 20);
     background-color: #fff;
 }
