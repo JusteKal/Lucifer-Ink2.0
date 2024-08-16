@@ -95,28 +95,51 @@ header nav li a:hover{
 
 .div2, .div3{
     border: 1px solid #fff;
+    position: relative;
+}
+
+.div5{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Aligne les <a> en bas */
 }
 
 .div5 a{
     padding: 0 2% 0 2%;
+    
 }
 
-.cover1{
-    position: absolute;
-    top: 13%;
-    left: 27.5%;
+.cover1 {
+    position: absolute; /* Positionnement absolu pour permettre le centrage */
+    top: 50%; /* Centre verticalement */
+    left: 50%; /* Centre horizontalement */
+    transform: translate(-50%, -500%); 
+    z-index: 1; 
+    width: 20%; 
+    height: auto; 
+    pointer-events: none; 
 }
 
-.cover2{
-    position: absolute;
-    top: 13%;
-    left: 69.5%;
+.cover2 {
+    position: absolute; /* Positionnement absolu pour permettre le centrage */
+    top: 50%; /* Centre verticalement */
+    left: 50%; /* Centre horizontalement */
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    width: 20%; 
+    height: auto; 
+    pointer-events: none; 
 }
 
-.mainbanner1, .mainbanner2{
+.mainbanner1, .mainbanner2 {
     height: 100%;
     width: 100%;
-} 
+    position: relative; 
+    z-index: 0; 
+    object-fit: cover; 
+}
 
 /* footer */
 
