@@ -1,0 +1,100 @@
+/* Remise à zéro */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, rgba(36,36,36,1) 0%, rgba(0,0,0,1) 100%);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Nav-Bar */
+
+header{
+    margin-top: 2%;
+}
+
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+header nav li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+header nav a{
+    /* border: 1px solid white; */
+    padding: 7px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+header nav p{
+    padding: 7px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+header nav li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.logo{
+    display: flex;
+    margin-left: 3%;
+}
+
+.logo a{
+    font-weight: 600;
+}
+
+.logo p{
+    font-weight: 300;
+}
+
+/* Main */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.2fr 0.6fr 1fr 0.6fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 2 / 1 / 5 / 6; }
+    .div2 { grid-area: 2 / 2 / 5 / 3; }
+    .div3 { grid-area: 2 / 4 / 5 / 5; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { grid-area: 4 / 3 / 5 / 4; }
+    .div6 { grid-area: 3 / 3 / 4 / 4; }
+
+    .div1, .div2, .div3, .div4, .div5, .div6 {
+        /* border: 1px solid #ddd; */
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .div2, .div3{
+        border: 1px solid #fff
+    }
+
+.mainbanner1, .mainbanner2 {
+    height: 100%;
+} 
+
+    /* Footer */
