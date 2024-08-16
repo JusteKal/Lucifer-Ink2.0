@@ -68,40 +68,53 @@ header nav li a:hover{
 
 /* Main */
 
-.parent {
+.parent{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 0.2fr 0.6fr 1fr 0.6fr 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
-    }
+}
     
-    .div1 { grid-area: 2 / 1 / 5 / 6; }
-    .div2 { grid-area: 2 / 2 / 5 / 3; }
-    .div3 { grid-area: 2 / 4 / 5 / 5; }
-    .div4 { grid-area: 2 / 3 / 3 / 4; }
-    .div5 { grid-area: 4 / 3 / 5 / 4; }
-    .div6 { grid-area: 3 / 3 / 4 / 4; }
+.div1{ grid-area: 2 / 1 / 5 / 6; }
+.div2{ grid-area: 2 / 2 / 5 / 3; }
+.div3{ grid-area: 2 / 4 / 5 / 5; }
+.div4{ grid-area: 2 / 3 / 3 / 4; }
+.div5{ grid-area: 4 / 3 / 5 / 4; }
+.div6{ grid-area: 3 / 3 / 4 / 4; }
 
-    .div1, .div2, .div3, .div4, .div5, .div6 {
-        /* border: 1px solid #ddd; */
-        text-align: center;
-        font-size: 18px;
-        color: #fff;
-    }
+.div1, .div2, .div3, .div4, .div5, .div6{
+    /* border: 1px solid #ddd; */
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
 
-    .div2, .div3{
-        border: 1px solid #fff
-    }
+.div2, .div3{
+    border: 1px solid #fff
+}
 
-.mainbanner1, .mainbanner2 {
+.mainbanner1, .mainbanner2{
     height: 100%;
 } 
 
-    /* Footer */
+footer p{
+    color: #fff;
+    text-align: center;
+    margin: 0 0 1% 0;
+}
 
-.footer p{
+.social-media{
+    text-align: center;
+}
+
+.contact{
     text-align: center;
     margin-top: 20px;
     color: #fff;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
 }
