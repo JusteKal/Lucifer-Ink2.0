@@ -7,6 +7,7 @@
 
 body{
     background: radial-gradient(circle, rgba(36,36,36,1) 0%, rgba(0,0,0,1) 100%);
+    filter: blur();
     font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -98,3 +99,9 @@ header nav li a:hover{
 } 
 
     /* Footer */
+
+.footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
