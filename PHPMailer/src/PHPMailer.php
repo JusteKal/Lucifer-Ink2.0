@@ -340,14 +340,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $Username = 'contact.lucifer.ink@gmail.com';
+    public $Username = '';
 
     /**
      * SMTP password.
      *
      * @var string
      */
-    public $Password = 'Coucoucou1965!';
+    public $Password = '';
 
     /**
      * SMTP authentication type. Options are CRAM-MD5, LOGIN, PLAIN, XOAUTH2.
