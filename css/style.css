@@ -16,6 +16,10 @@ header{
     margin-top: 2%;
 }
 
+.gabrielcns{
+    font-family: "Anton", sans-serif;
+    font-size: 1.1rem;
+}
 nav{
     text-align: center;
     display: flex;
