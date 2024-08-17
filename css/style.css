@@ -44,7 +44,7 @@ header nav a{
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 300;
     transition: border-bottom 0.3s ease-in-out;
     border-bottom: 3px solid transparent; /* Bordure transparente au départ */
 }
