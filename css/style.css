@@ -40,7 +40,6 @@ header nav li{
 header nav a{
     /* border: 1px solid white; */
     padding: 7px;
-    text-transform: uppercase;
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
@@ -51,7 +50,6 @@ header nav a{
 
 header nav p{
     padding: 7px;
-    text-transform: uppercase;
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
