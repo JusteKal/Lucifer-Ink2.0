@@ -113,6 +113,7 @@ textarea{
     outline: none;
     border: none;
     cursor: pointer;
+	
 }
 
 input[type="file"]::file-selector-button {
