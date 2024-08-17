@@ -1,0 +1,16 @@
+.confirmation {
+    text-align: center;
+    color: white;
+    /* background-color: rgb(255, 255, 255, 0.5); */
+    padding: 8%;
+    margin: 10%;
+    line-height: 40px;
+}
+
+.confirmation a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    line-height: 60px;
+}
