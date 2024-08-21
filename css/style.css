@@ -112,7 +112,7 @@ header nav li a:hover{
 /* Pour les petits écrans */
 @media (max-width: 768px) {
     .nav-links {
-        position: absolute;
+        position: fixed;
         right: 0;
         height: 100vh;
         top: 0;
