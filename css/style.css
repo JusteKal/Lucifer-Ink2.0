@@ -121,6 +121,7 @@ header nav li a:hover{
         transform: translateX(100%);
         transition: transform 0.5s ease-in-out;
         z-index: 9;
+        overflow-x: hidden;
     }
 
     .nav-links li {
@@ -132,6 +133,7 @@ header nav li a:hover{
     }
 
     .burger-menu {
+        overflow-x: hidden;
         display: flex;
     }
 
