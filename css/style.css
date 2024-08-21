@@ -137,9 +137,9 @@ header nav li a:hover{
     position: absolute;
     top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centre horizontalement */
+    transform: translate(-50%, -50%); 
     z-index: 1; 
-    width: 80%; /* Ajuste la largeur selon tes besoins */
+    width: 80%; 
     height: auto; 
     pointer-events: none; 
 }
