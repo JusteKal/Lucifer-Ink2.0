@@ -103,6 +103,9 @@ header nav li a:hover{
 .div2, .div3{
     border: 1px solid #fff;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div5{
@@ -131,15 +134,17 @@ header nav li a:hover{
 }
 
 .cover1 {
-    position: absolute; /* Positionnement absolu pour permettre le centrage */
-    top: 50%; /* Centre verticalement */
-    left: 50%; /* Centre horizontalement */
-    transform: translate(-50%, -184%); 
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre horizontalement */
     z-index: 1; 
-    width: 70%; 
+    width: 80%; /* Ajuste la largeur selon tes besoins */
     height: auto; 
     pointer-events: none; 
 }
+
+
 
 .cover2 {
     position: absolute; /* Positionnement absolu pour permettre le centrage */
@@ -215,4 +220,14 @@ footer p{
 
 .createby img{
     margin-left: 10px;
+}
+
+/* responsive */
+
+/* tablette */
+
+@media(min-width: 768px) and (max-width: 1388px){
+
+
+
 }
