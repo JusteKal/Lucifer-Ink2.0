@@ -236,6 +236,33 @@ header nav li a:hover{
     object-fit: cover; 
 }
 
+/* Responsive acceuil petit écran */
+
+@media (max-width: 768px){
+    .div2, .div3, .mainbanner1, .mainbanner2, .cover1, .cover2{
+        display: none;
+    }
+
+    /* Réorganisation des divs restantes */
+    .parent {
+        grid-template-columns: 1fr; /* Une seule colonne */
+        grid-template-rows: auto; /* Ajustement automatique des lignes */
+        grid-column-gap: 0; /* Suppression de l'espace entre les colonnes */
+    }
+       
+    .div4 {
+        margin: 40px 0 40px 0;
+    }
+
+    .div5{
+        margin-top: 40px;
+    }
+    
+    footer{
+        margin-top: 100px;
+    }
+}
+
 /* footer */
 
 footer p{
