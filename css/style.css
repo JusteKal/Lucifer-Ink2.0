@@ -155,7 +155,7 @@ header nav li a:hover{
 .parent{
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 1fr 0.6fr;
-    grid-template-rows: 0.1fr 0.6fr 1fr 0.6fr 1fr;
+    grid-template-rows: 0.1fr 0.6fr 1fr 0.6fr 0.2fr;
     grid-column-gap: 18px;
     grid-row-gap: 30px;
 }
