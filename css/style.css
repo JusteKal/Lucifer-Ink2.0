@@ -218,12 +218,10 @@ header nav li a:hover{
     left: 50%;
     transform: translate(-50%, -50%); 
     z-index: 1; 
-    width: 80%; 
+    width: 80%;
     height: auto; 
     pointer-events: none; 
 }
-
-
 
 .cover2 {
     position: absolute;
@@ -231,7 +229,8 @@ header nav li a:hover{
     left: 50%; 
     transform: translate(-50%, -50%); 
     z-index: 1; 
-    width: 100%; 
+    width: 90%;
+    filter: drop-shadow(30px 10px 4px #000000); 
     height: auto; 
     pointer-events: none; 
 }
