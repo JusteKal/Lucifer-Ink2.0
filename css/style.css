@@ -222,7 +222,8 @@ header nav li a:hover{
     z-index: 1; 
     width: 80%;
     height: auto; 
-    pointer-events: none; 
+    pointer-events: none;
+    filter: drop-shadow(0 0 0.75rem rgb(26, 26, 26));
 }
 
 .cover2 {
