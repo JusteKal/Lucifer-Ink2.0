@@ -284,7 +284,21 @@ header nav li a:hover{
     }
 }
 
+@media screen and (max-width: 1200px) {
 
+    .parent {
+        margin-top: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-column-gap: 0;
+        grid-row-gap: 20px; 
+        justify-items: center;
+    }
+    
+    footer{
+        margin-top: 100px;
+    }
+  }
 
 /* footer */
 
