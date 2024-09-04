@@ -305,6 +305,10 @@ header nav li a:hover{
 
 /* footer */
 
+footer{
+    margin: 8px 0 0 0;
+}
+
 footer p{
     color: #fff;
     text-align: center;
