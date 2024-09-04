@@ -187,12 +187,12 @@ header nav li a:hover{
 }
 
 .tanjiro{
-    height: 170px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
 .naruto{
-    height: 140px;
+    width: 110%;
 }
 
 .div5{
@@ -262,7 +262,7 @@ header nav li a:hover{
 
     .div2 {
         grid-area: 1 / 1 / 2 / 2; 
-        width: 85%;
+        width: 60%;
         margin: 0 0 40px 0;
     }
 
@@ -273,7 +273,7 @@ header nav li a:hover{
 
     .div3 {
         grid-area: 3 / 1 / 4 / 2; 
-        width: 85%;
+        width: 60%;
         margin: 40px 0 0 0;
     }
     
@@ -281,6 +281,8 @@ header nav li a:hover{
         margin-top: 100px;
     }
 }
+
+
 
 /* footer */
 
