@@ -280,7 +280,7 @@ header nav li a:hover{
     }
     
     footer{
-        margin-top: 100px;
+        display:contents;
     }
 }
 
@@ -296,7 +296,10 @@ header nav li a:hover{
     }
     
     footer{
-        margin-top: 100px;
+        position: absolute;
+        bottom: 5px;
+        left: 0; 
+        right: 0; 
     }
   }
 
