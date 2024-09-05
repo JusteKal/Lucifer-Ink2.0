@@ -171,7 +171,7 @@ header nav li a:hover{
     grid-template-rows: 0.1fr 0.6fr 1fr 0.6fr 0.2fr;
     grid-column-gap: 18px;
     grid-row-gap: 30px;
-    padding-top: 3%;
+    padding-top: 2%;
 }
     
 .div1{ grid-area: 2 / 1 / 5 / 6; }
