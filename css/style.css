@@ -1,3 +1,16 @@
+/* load */
+
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.div1.visible, .div2.visible, .div3.visible, .div4.visible, .div5.visible, .div6.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Remise à zéro */
 *{
     margin: 0;
