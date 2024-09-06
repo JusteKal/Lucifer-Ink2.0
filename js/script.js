@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const burgerMenu = document.getElementById('burgerMenu');
     const navLinks = document.getElementById('navLinks');
-    const images = document.querySelectorAll('.div1, .div2, .div3, .div4, .div5, .div6');
+    const images = document.querySelectorAll('.div1, .div2, .div3, .div4, .div5, .div6, .column, .rdv-box');
 
     burgerMenu.addEventListener('click', () => {
         navLinks.classList.toggle('active');
@@ -19,5 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    revealImages(); // Call revealImages initially to reveal images on page load
+    revealImages();
 });

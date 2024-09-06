@@ -10,6 +10,21 @@
     padding-bottom: 70px;
     gap: 2rem;
     min-height: 95vh;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.rdv-box.visible {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    gap: 2rem;
+    min-height: 95vh;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container {
