@@ -19,5 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    const c = document.createComment( `
+                        __       __
+                      '.'--.--'.-'
+        .,_------.___,   \' r'
+        ', '-._a      '-' .'
+         '.    '-'Y \._  /
+          '--;____'--.'-,
+      Kal /..'       '''
+    ` );
+     document.head.insertBefore( c, document.head.firstElementChild );
+
     revealImages();
 });
