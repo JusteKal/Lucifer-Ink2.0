@@ -10,16 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const revealImages = () => {
         images.forEach(image => {
-            const imageTop = image.getBoundingClientRect().top;
-            const imageHeight = image.offsetHeight;
-            const windowHeight = window.innerHeight;
-            if (imageTop < windowHeight && imageTop + imageHeight > 0) {
-                image.classList.add('visible');
-            }
+            image.classList.add('visible');
         });
     };
 
-    const c = document.createComment( `
+    const c = document.createComment(`
                         __       __
                       '.'--.--'.-'
         .,_------.___,   \' r'
@@ -27,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
          '.    '-'Y \._  /
           '--;____'--.'-,
       Kal /..'       '''
-    ` );
-     document.head.insertBefore( c, document.head.firstElementChild );
+    `);
+    document.head.insertBefore( c, document.head.firstElementChild );
 
     revealImages();
 });
